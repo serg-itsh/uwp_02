@@ -3827,7 +3827,7 @@ header{
   top: 0px;
   right: 0px;
   left: 0px;
-  z-index: 50;
+  z-index: 20;
 }
 
 .isFixed{
@@ -5934,14 +5934,6 @@ google-review
   z-index: -50;
 }
 
-.z-\[100\]{
-  z-index: 100;
-}
-
-.z-\[60px\]{
-  z-index: 60px;
-}
-
 .order-2{
   order: 2;
 }
@@ -6733,6 +6725,10 @@ google-review
   gap: 42px;
 }
 
+.gap-\[6px\]{
+  gap: 6px;
+}
+
 .gap-\[43px\]{
   gap: 43px;
 }
@@ -6747,10 +6743,6 @@ google-review
 
 .gap-10{
   gap: 2.5rem;
-}
-
-.gap-\[6px\]{
-  gap: 6px;
 }
 
 .gap-y-\[46px\]{
@@ -6887,10 +6879,6 @@ google-review
 .bg-\[\#323232\]{
   --tw-bg-opacity: 1;
   background-color: rgb(50 50 50 / var(--tw-bg-opacity));
-}
-
-.bg-dark\/90{
-  background-color: rgb(23 23 23 / 0.9);
 }
 
 .bg-mainTextLight{
@@ -7853,16 +7841,12 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:gap-\[14px\]:hover{
-  gap: 14px;
+.hover\:gap-\[14\.5px\]:hover{
+  gap: 14.5px;
 }
 
 .hover\:gap-\[20px\]:hover{
   gap: 20px;
-}
-
-.hover\:gap-\[14\.5px\]:hover{
-  gap: 14.5px;
 }
 
 .hover\:border-white:hover{
