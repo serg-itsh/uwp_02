@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scss.lint.unknownAtRules": "ignore",
+  "homepage": "https://github.com/serg-itsh/uwp_02",  
   "scripts": {
     "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch",
     "build": "npx tailwindcss -i ./input.css -o ./css/style.css",
     "lint": "eslint --fix src",
     "format": "prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serg-itsh/uwp_02.git"
   },
   "keywords": [],
   "author": "",
