@@ -1,3 +1,16 @@
+24,02,2023
+…or create a new repository on the command line
+echo "# uwp_02" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/serg-itsh/uwp_02.git
+git push -u origin main
+
+
+
+
 container	None	width: 100%;
 sm (640px)	max-width: 640px;
 md (768px)	max-width: 768px;
