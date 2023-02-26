@@ -36,6 +36,9 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
+      '1xl': '1366px',
+      // => @media (min-width: 1366px) { ... }
+
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
 
@@ -47,6 +50,7 @@ module.exports = {
         '79': '.79',
         '121': '1.21',
         '126': '1.26',
+        '130': '1.30',
         '175': '1.75',
       },
       padding: {
