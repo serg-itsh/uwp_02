@@ -6592,10 +6592,6 @@ google-review
   gap: 42px;
 }
 
-.gap-\[6px\]{
-  gap: 6px;
-}
-
 .gap-\[43px\]{
   gap: 43px;
 }
@@ -7192,14 +7188,6 @@ google-review
   padding-bottom: 2rem;
 }
 
-.pt-\[46px\]{
-  padding-top: 46px;
-}
-
-.pb-\[66px\]{
-  padding-bottom: 66px;
-}
-
 .pt-\[36px\]{
   padding-top: 36px;
 }
@@ -7216,8 +7204,12 @@ google-review
   padding-bottom: 35px;
 }
 
-.pt-\[41px\]{
-  padding-top: 41px;
+.pt-\[46px\]{
+  padding-top: 46px;
+}
+
+.pb-\[66px\]{
+  padding-bottom: 66px;
 }
 
 .pt-\[77px\]{
@@ -7717,10 +7709,6 @@ body{
   gap: 20px;
 }
 
-.hover\:gap-\[14\.5px\]:hover{
-  gap: 14.5px;
-}
-
 .hover\:border-white:hover{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -7983,18 +7971,6 @@ body{
 .group\/item:hover .group-hover\/item\:scale-\[1\.26\]{
   --tw-scale-x: 1.26;
   --tw-scale-y: 1.26;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group\/item:hover .group-hover\/item\:scale-\[1\.21\]{
-  --tw-scale-x: 1.21;
-  --tw-scale-y: 1.21;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group\/item:hover .group-hover\/item\:scale-\[1\.15\]{
-  --tw-scale-x: 1.15;
-  --tw-scale-y: 1.15;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -8290,16 +8266,16 @@ body{
     right: 6rem;
   }
 
+  .lg\:top-\[80px\]{
+    top: 80px;
+  }
+
   .lg\:top-\[-92px\]{
     top: -92px;
   }
 
   .lg\:right-\[11\.3\%\]{
     right: 11.3%;
-  }
-
-  .lg\:right-\[93px\]{
-    right: 93px;
   }
 
   .lg\:top-\[50\%\]{
@@ -8312,18 +8288,6 @@ body{
 
   .lg\:right-\[10px\]{
     right: 10px;
-  }
-
-  .lg\:right-\[7px\]{
-    right: 7px;
-  }
-
-  .lg\:top-\[-25px\]{
-    top: -25px;
-  }
-
-  .lg\:right-\[-26px\]{
-    right: -26px;
   }
 
   .lg\:-left-\[60px\]{
@@ -9233,10 +9197,6 @@ body{
     padding: 23px;
   }
 
-  .lg\:p-\[26px\]{
-    padding: 26px;
-  }
-
   .lg\:px-\[30px\]{
     padding-left: 30px;
     padding-right: 30px;
@@ -9528,6 +9488,10 @@ body{
     padding-top: 1.25rem;
   }
 
+  .lg\:pt-\[125px\]{
+    padding-top: 125px;
+  }
+
   .lg\:pt-\[44px\]{
     padding-top: 44px;
   }
@@ -9648,10 +9612,6 @@ body{
     padding-top: 28px;
   }
 
-  .lg\:pt-\[125px\]{
-    padding-top: 125px;
-  }
-
   .lg\:text-center{
     text-align: center;
   }
@@ -9708,6 +9668,10 @@ body{
     line-height: 1.75rem;
   }
 
+  .lg\:text-\[42px\]{
+    font-size: 42px;
+  }
+
   .lg\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
@@ -9716,10 +9680,6 @@ body{
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[42px\]{
-    font-size: 42px;
   }
 
   .lg\:capitalize{
@@ -9819,14 +9779,6 @@ body{
     width: 64%;
   }
 
-  .lg\:hover\:gap-\[14\.5px\]:hover{
-    gap: 14.5px;
-  }
-
-  .lg\:hover\:pt-\[38\.6px\]:hover{
-    padding-top: 38.6px;
-  }
-
   .lg\:placeholder\:focus\:-translate-x-9:focus::-moz-placeholder{
     --tw-translate-x: -2.25rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -9835,21 +9787,6 @@ body{
   .lg\:placeholder\:focus\:-translate-x-9:focus::placeholder{
     --tw-translate-x: -2.25rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .group\/item:hover .lg\:group-hover\/item\:scale-\[1\.30\]{
-    --tw-scale-x: 1.30;
-    --tw-scale-y: 1.30;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .group\/card:hover .lg\:group-hover\/card\:bg-bgColorMain{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 48 77 / var(--tw-bg-opacity));
-  }
-
-  .group\/card:hover .lg\:group-hover\/card\:fill-white{
-    fill: #ffffff;
   }
 
   .dark .dark\:lg\:bg-\[\#474747\]{
@@ -9911,18 +9848,6 @@ body{
 
   .xl\:right-\[10px\]{
     right: 10px;
-  }
-
-  .xl\:top-\[-25px\]{
-    top: -25px;
-  }
-
-  .xl\:right-\[24px\]{
-    right: 24px;
-  }
-
-  .xl\:right-\[0px\]{
-    right: 0px;
   }
 
   .xl\:-left-\[140px\]{
@@ -10330,10 +10255,6 @@ body{
     width: 145px;
   }
 
-  .xl\:w-\[92\%\]{
-    width: 92%;
-  }
-
   .xl\:w-\[284px\]{
     width: 284px;
   }
@@ -10653,10 +10574,6 @@ body{
 
   .xl\:gap-\[59px\]{
     gap: 59px;
-  }
-
-  .xl\:gap-\[14px\]{
-    gap: 14px;
   }
 
   .xl\:gap-\[32px\]{
@@ -11063,6 +10980,10 @@ body{
     padding-top: 4px;
   }
 
+  .xl\:pt-\[175px\]{
+    padding-top: 175px;
+  }
+
   .xl\:pt-\[36px\]{
     padding-top: 36px;
   }
@@ -11209,10 +11130,6 @@ body{
 
   .xl\:pt-\[41px\]{
     padding-top: 41px;
-  }
-
-  .xl\:pt-\[175px\]{
-    padding-top: 175px;
   }
 
   .xl\:indent-\[23px\]{
@@ -11462,18 +11379,6 @@ body{
     --tw-border-opacity: 1;
     border-bottom-color: rgb(145 145 145 / var(--tw-border-opacity));
   }
-
-  .xl\:hover\:gap-\[25\.5px\]:hover{
-    gap: 25.5px;
-  }
-
-  .xl\:hover\:gap-\[23\.7px\]:hover{
-    gap: 23.7px;
-  }
-
-  .xl\:hover\:pt-\[29\.5px\]:hover{
-    padding-top: 29.5px;
-  }
 }
 
 @media (min-width: 1366px){
@@ -11565,10 +11470,6 @@ body{
     right: 23.4%;
   }
 
-  .\32xl\:right-\[23\.3\%\]{
-    right: 23.3%;
-  }
-
   .\32xl\:top-\[-8px\]{
     top: -8px;
   }
@@ -11579,10 +11480,6 @@ body{
 
   .\32xl\:top-\[-25px\]{
     top: -25px;
-  }
-
-  .\32xl\:right-\[18px\]{
-    right: 18px;
   }
 
   .\32xl\:left-16{
@@ -11679,10 +11576,6 @@ body{
 
   .\32xl\:w-\[177px\]{
     width: 177px;
-  }
-
-  .\32xl\:w-\[92\%\]{
-    width: 92%;
   }
 
   .\32xl\:w-\[365px\]{
@@ -11784,10 +11677,6 @@ body{
 
   .\32xl\:gap-\[9px\]{
     gap: 9px;
-  }
-
-  .\32xl\:gap-\[10px\]{
-    gap: 10px;
   }
 
   .\32xl\:gap-\[43px\]{
@@ -12095,14 +11984,6 @@ body{
 
   .\32xl\:tracking-\[-0\.8px\]{
     letter-spacing: -0.8px;
-  }
-
-  .\32xl\:hover\:gap-\[18\.5px\]:hover{
-    gap: 18.5px;
-  }
-
-  .\32xl\:hover\:pt-\[48\.5px\]:hover{
-    padding-top: 48.5px;
   }
 
   .group\/card:hover .\32xl\:group-hover\/card\:bg-bgColorMain{
