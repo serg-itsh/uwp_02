@@ -519,49 +519,6 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
-html {
-  scroll-behavior: smooth;
-  display: block;
-}
-
-.header__contact-body::-webkit-scrollbar,
- html::-webkit-scrollbar{
-  background: #171717;
-  width: 10px;
-}
-
-.form__header::-webkit-scrollbar-thumb,
-html::-webkit-scrollbar-thumb {
-  background: #ff304d;
-  border-radius: 20px;
-  height: 80px;
-}
-
-/* form */
-
-._body-contact-active {
-  right: 0!important;
-}
-
-.header__contact-body {
-  transition: .3s;
-  position: absolute;
-  right: -100%;
-  z-index: 20;
-  width: 100%;
-  top: 0;
-  /* padding: 24px 20px 140px 20px;*/
-  height: calc(100vh + 82px);
-  background: #171717;
-  overflow-y: scroll;
-}
-
-.header__contact-body::-webkit-scrollbar-thumb {
-  background: #ff304d;
-  border-radius: 20px;
-  height: 5px;
-}
-
 .container{
   width: 100%;
   margin-right: auto;
@@ -3817,30 +3774,116 @@ textarea.form-control.is-invalid{
 }
 
 /*================================================ 
-BEGIN: html
+BEGIN: html  scroll
 =================================================*/
 
 /* html{
   @apply  overflow-y-hidden ;
 } */
 
+/*html {
+    scroll-behavior: smooth;
+}
+*/
+
 html{
   scroll-behavior: smooth;
-  display: block;
 }
 
 .header__contact-body::-webkit-scrollbar,
  html::-webkit-scrollbar{
-  background: #171717;
   width: 10px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
 .form__header::-webkit-scrollbar-thumb,
-html::-webkit-scrollbar-thumb {
-  background: #ff304d;
-  border-radius: 20px;
+html::-webkit-scrollbar-thumb{
   height: 80px;
+  border-radius: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 48 77 / var(--tw-bg-opacity));
 }
+
+/*html {
+    display: block;
+}
+*/
+
+/*.header__contact-body::-webkit-scrollbar,
+ html::-webkit-scrollbar{
+  background: #171717;
+    width: 10px;    
+}
+*/
+
+/*.form__header::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb {
+    background: #ff304d;
+    border-radius: 20px;
+    height: 80px;
+}
+*/
+
+/* form */
+
+._body-contact-active {
+  right: 0!important;
+}
+
+.header__contact-body{
+  position: absolute;
+  right: 100%;
+  top: 0px;
+  z-index: 20;
+  height: calc(100vh + 82px);
+  width: 100%;
+  overflow-y: scroll;
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.header__contact-body::-webkit-scrollbar-thumb{
+  height: 5px;
+  border-radius: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 48 77 / var(--tw-bg-opacity));
+}
+
+/*._body-contact-active {
+  @apply right-0  !important
+}
+*/
+
+/*.header__contact-body {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: absolute;
+    right: -100%;
+    z-index: 20;
+    width: 100%;
+    top: 0;
+  /* padding: 24px 20px 140px 20px;*/
+
+/*   height: calc(100vh + 82px);
+    background: #171717;
+    overflow-y: scroll;
+}
+*/
+
+/*.header__contact-body::-webkit-scrollbar-thumb {
+    background: #ff304d;
+    border-radius: 20px;
+    height: 5px;
+}
+*/
 
 /*================================================ 
 BEGIN: wrapper 
@@ -6124,6 +6167,10 @@ google-review
 
 .h-\[133px\]{
   height: 133px;
+}
+
+.h-auto{
+  height: auto;
 }
 
 .h-\[11px\]{
@@ -9601,6 +9648,10 @@ body{
     padding-top: 28px;
   }
 
+  .lg\:pt-\[125px\]{
+    padding-top: 125px;
+  }
+
   .lg\:text-center{
     text-align: center;
   }
@@ -9665,6 +9716,10 @@ body{
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[42px\]{
+    font-size: 42px;
   }
 
   .lg\:capitalize{
@@ -11154,6 +11209,10 @@ body{
 
   .xl\:pt-\[41px\]{
     padding-top: 41px;
+  }
+
+  .xl\:pt-\[175px\]{
+    padding-top: 175px;
   }
 
   .xl\:indent-\[23px\]{

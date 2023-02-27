@@ -4,6 +4,9 @@
 
 // module.exports = withMT({
 module.exports = {
+  // important: true,
+  // important: '#app',
+
   content: ['./**/*.html', './node_modules/tw-elements/dist/js/**/*.js'],
   darkMode: 'class',
   theme: {

@@ -667,9 +667,12 @@ document.addEventListener('DOMContentLoaded', function () {
        * Added red border input phone
        */
 
-      // phone.classList.remove('focus:border-white');
-      // phone.classList.add('focus:border-bgColorMain');
-      phone.classList.replace('focus:border-white','focus:border-red');
+      
+      phone.classList.add('border__error');
+      // phone.classList.replace('border__rounded','border__error');
+      
+       // phone.classList.replace('focus:border-white','focus:border-borderBtn');
+      phone.classList.add('focus:border-borderBtn');
       phone.classList.add('_error');
 
       popup.classList.replace('hidden', 'block');
@@ -693,8 +696,12 @@ document.addEventListener('DOMContentLoaded', function () {
          * Delete red border input phone
          */
         
-        phone.classList.remove('focus:border-bgColorMain');
-      phone.classList.add('focus:border-white');
+
+         phone.classList.remove('border__error');
+       
+        phone.classList.remove('focus:border-borderBtn');
+        phone.classList.remove('border-borderBtn');
+      
       phone.classList.remove('_error');
     }
   });
@@ -713,10 +720,12 @@ document.addEventListener('DOMContentLoaded', function () {
        * Added red border input phone
        */
 
-       // phone.classList.remove('focus:border-white');
-      // phone.classList.add('focus:border-bgColorMain');
-      phone.classList.replace('focus:border-white','focus:border-red');
-      phone.classList.add('_error');
+       phone_02.classList.add('border__error');
+      // phone.classList.replace('border__rounded','border__error');
+      
+       // phone.classList.replace('focus:border-white','focus:border-borderBtn');
+      phone_02.classList.add('focus:border-borderBtn');
+      phone_02.classList.add('_error');
 
       popup_02.classList.replace('hidden', 'block');     
       popup_02.textContent = 'The phone is in the wrong format';
@@ -730,9 +739,12 @@ document.addEventListener('DOMContentLoaded', function () {
         /**
          * Delete red border input phone
          */
-        phone.classList.remove('focus:border-bgColorMain');
-        phone.classList.add('focus:border-white');
-        phone.classList.remove('_error');
+         phone_02.classList.remove('border__error');
+       
+        phone_02.classList.remove('focus:border-borderBtn');
+        phone_02.classList.remove('border-borderBtn');
+      
+      phone_02.classList.remove('_error');
     }
   });
   // ===
@@ -816,7 +828,9 @@ document.addEventListener('DOMContentLoaded', function () {
       popupForms.classList.toggle('hidden');
       // popupForms.classList.add('is-open');
 
-      formMenu.classList.add('hidden');
+
+      // disabled 27.02.2023
+      // formMenu.classList.add('hidden');
 
       document.getElementById('name_02').value = '';
         document.getElementById('email_02').value = '';
