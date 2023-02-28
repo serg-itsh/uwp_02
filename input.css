@@ -1185,6 +1185,17 @@ google-review
   xl:top-0 xl:left-[-152px] xl:w-[1px]  xl:h-[100%] xl:bg-[#919191]  ;
 }
 
+/* 14-section-contextual*/
+
+
+   .content__block::after{
+  @apply xl:content-['']  xl:absolute
+  xl:top-[-70px] xl:left-[-140px] xl:w-[1px]  xl:h-[111%] xl:bg-[#919191]  ;
+}
+
+
+/*  14-section-contextual */
+
 .next-case__title::after{
   @apply xl:content-['']  xl:absolute
   xl:top-[-35px] xl:right-[-25px] xl:w-[1px]  xl:h-[calc(100%+70px)] xl:bg-[#919191]  ;
